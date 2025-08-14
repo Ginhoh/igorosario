@@ -1,0 +1,8 @@
+<svg width="300" height="120" viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="120" height="120" rx="20" fill="#111827"></rect>
+  <line x1="40" y1="30" x2="40" y2="90" stroke="#FACC15" stroke-width="8" stroke-linecap="round"></line>
+  <path d="M80 30V75C80 85 70 90 60 90H50" stroke="#FACC15" stroke-width="8" stroke-linecap="round"></path>
+  <text x="140" y="65" fill="#FACC15" font-family="Arial, sans-serif" font-size="32" font-weight="bold">
+    Igor Jerônimo
+  </text>
+</svg>

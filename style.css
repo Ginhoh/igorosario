@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background-color: #111827;
+}
+nav{
+    
+    display: flex;
+    justify-content: end;
+    gap: 80px;
+    padding-right: 30px;
+    padding-top: 10px;
+
+}
+nav a{
+    color: #FACC15;
+    text-decoration: none;
+    transition: 300ms ease-in-out;
+    
+}
+nav a:hover{
+    scale: 1.2;
+    transition: 300ms ease-in-out;
+}
+header img{
+    width: 120px;
+    margin-left:30px ;
+    transition: 300ms ease-in-out;
+}
+header img:hover{
+    scale: 1.2;
+    transition: 300ms ease-in-out;
+}
+header{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px #FACC15;
+    
+}
+main{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+span, h3, p, h2{
+    color: #F3F4F6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    
+}
+.nome-lateral{
+   justify-self: self-start; 
+   font-weight: 400;
+   font-size: 15px;
+   text-align: center;
+   max-width: 500px;
+   
+}
+.nome-lateral span{
+    
+    font-size: 25px;
+    color: #FACC15;
+}
+main img{
+    width: 250px;
+    box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.5);
+    
+}
+section{
+    margin: 10%;
+}
+#aboutme p{
+    margin-top: 3%;
+    margin-right: 5%;
+}
+p{
+    margin-top: 5%;
+}
+#projetos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    margin-top: 5%;
+    
+}
+.pjt{
+    background-color: #111827;
+    width: 200px;
+    height: 300px;
+    box-shadow: 0px 3px 5px rgba(255, 255, 255, 0.5);
+    text-align: center;
+
+}
+h4,#qsl h4{
+    text-align: center;
+    color: #F3F4F6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+h5{
+    color: #FACC15;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    text-align: center;
+     box-shadow: 0px 0px 5px #FACC15;
+     padding: 15px;
+     margin-top: 100px;
+}
+#contato{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.cc a{
+    display: flex;
+    color: #F3F4F6;
+    align-items: center;
+    text-decoration: none;
+    transition: .5s ease-in-out;
+}
+.cc a:hover{
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+}
+#conteudo{
+   
+    text-align: center;
+    opacity: 0;
+    transition:  ease-in-out;
+
+}
+#conteudo a{
+    text-align: center;
+    color: #FACC15;
+    text-decoration: none;   
+}
+#conteudo a:hover{
+    color: #FACC15
+}
+
+#skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-self: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+.skl{
+    display: flex;
+    flex-direction: column;
+    background-color: #111827;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 3px 5px rgba(255, 255, 255, 0.5);
+    align-items: center;
+    text-align: center;
+    transition: 300ms ease-in-out;
+    
+}
+
+.skl img{
+    width: 130px;
+    height: 130px;
+
+
+}
+.skl:hover{
+
+    scale: 1.1;
+    transition: 300ms ease-in-out;
+}
+@media(max-width:768px){
+    main{
+        flex-direction: column-reverse;
+    }
+    nav{
+        gap: 10%;
+    }
+    #projetos{
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        gap: 10px;
+    }
+}
+@media(max-width:500px){
+    nav{
+        font-size: 20px;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0;
+    }
+    header img{
+        display: none;
+    }
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+   section{
+    text-align: center;
+    
+   }
+   section h2{
+    color: #FACC15;
+    
+   }
+   h4{
+    color: #FACC15;
+   }
+   h3{
+    font-size: 20px;
+   }
+   #conteudo{
+    opacity: 1;
+   }
+}

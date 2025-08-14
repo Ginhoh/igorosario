@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Igor Jerônimo</title>
+    <link rel="shortcut icon" href="logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <header>
+        <a href="#"><img src="name.png" alt="Logo de Igor Jerônimo" ></a>
+    
+        <nav>
+        
+        <a href="#aboutme">Sobre mim</a>
+        <a href="#projects">Projetos</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#contato">Contato</a>
+    </nav>  
+    </header>
+    <main id="inicio">
+        <div class="nome-lateral">
+            <span>Igor Jerônimo</span>
+            <h3>Desenvolvedor em formação <br>Python • HTML • CSS • JavaScript <br> Buscando transformar problemas em soluções através da tecnologia.;</h3>
+        </div>
+        <img src="perfil2.jpg" alt="Foto de Igor Jerônimo">
+    </main>
+    <section id="aboutme">
+        <h2>Quem sou eu?</h2>
+        <p>Sou Igor Jerônimo, tenho 18 anos e estou iniciando minha jornada como desenvolvedor. 
+                Atualmente, curso Bacharelado em Ciência da Computação na UNIJORGE, onde venho desenvolvendo uma base sólida em programação,
+                desenvolvimento web e resolução de problemas.
+            Tenho conhecimentos em Python, HTML, CSS e JavaScript, sempre buscando evoluir e aprimorar minhas habilidades
+            técnicas e pessoais. Acredito no poder da tecnologia para transformar vidas e gerar valor, por isso, procuro
+            oportunidades que unam meu desenvolvimento profissional ao crescimento das empresas.
+            Sou movido pela vontade de aprender, crescer e colaborar. Trabalho bem em equipe, sou 
+            comprometido com resultados e apaixonado por transformar desafios em soluções eficientes e impactantes.
+            <br><br>Meu propósito é usar o código como ferramenta para criar soluções que façam a diferença no mundo.
+    </section>
+    <h4 id="projects">Projetos</h4>
+    <section id="projetos">
+        
+        <div onmousemove="entrar(0)" onmouseout="sair(0)" class="pjt">
+            <div id="conteudo">
+                <p><span style="color: #FACC15;">Despacho IJ</span><br>O sistema é uma calculadora de pisos, feito na linguagem Python em que o mesmo calcula a
+                 quantidade de caixas fechadas e pedras de pisos necessárias para preencher o
+                  perímetro em m² estabelecido pelo usuário.</p>
+                  <a href="https://github.com/Ginhoh/Python" target="_blank">Acessar GitHub</a>
+            </div>
+            
+        </div>
+        <div onmousemove="entrar(1)" onmouseout="sair(1)" class="pjt">
+            <div id="conteudo">
+                <p><span style="color: #FACC15;">Calculadora</span><br>Projeto Desenvolvido em HTML, CSS e JavaScript 
+                O projeto tem um desenvolvimento simples e com o foco em operações numéricas, visando na utilidade passada para o usuário.</p>
+                  <a href="" target="_blank">Acessar GitHub</a>
+            </div>
+        </div>
+        <div onmousemove="entrar(2)" onmouseout="sair(2)" class="pjt">
+           <div id="conteudo">
+                <p><span style="color: #FACC15;">Portfolio de Emerson Silva</span><br>Desenvolvi um portfólio digital personalizado para um instrutor de
+                     educação física, com o objetivo de divulgar seu trabalho, qualificações e serviços oferecidos.   </p>
+                  <a href="https://github.com/Ginhoh/emersonsilva" target="_blank">Acessar GitHub</a>
+            </div>
+        </div>
+         <div onmousemove="entrar(3)" onmouseout="sair(3)" class="pjt">
+           <div id="conteudo">
+                <p><span style="color: #FACC15;">LocalDB</span><br>Um sistema simples com objetivo de armazernar cadastros de usuários dentro de um banco
+                de dados local, utilizando a ferramenta LocalStorage, assim, é possível fechar e abrir o site e não ter os dados apagados.   </p>
+                  <a href="https://github.com/Ginhoh/LocalDB" target="_blank">Acessar GitHub</a>
+            </div>
+        </div>
+         <div onmousemove="entrar(4)" onmouseout="sair(4)" class="pjt">
+           <div id="conteudo">
+                <p><span style="color: #FACC15;">Relógio Estilizado</span><br>Um relógio digital simples, intuitivo e ergonômico, onde retorna para o usuário o horário em tempo real,
+                de acordo com o horário de Brasília. </p>
+                  <a href="https://github.com/Ginhoh/Rel-gio-Estilizado" target="_blank">Acessar GitHub</a>
+            </div>
+        </div>
+        
+
+    </section>
+
+    <h4 id="qsl"> Habilidades</h4>
+    <section id="skills">
+        
+        <div  class="skl">
+            <img src="python-yellow.png" alt="">
+            <span>Python</span>
+           
+        </div>
+        <div  class="skl">
+            <img src="html5-yellow.png" alt="">
+            <span>HTML</span>
+        </div>
+        <div  class="skl">
+            <img src="css3-yellow.png" alt="">
+            <span>CSS</span>
+        </div>
+        <div class="skl">
+            <img src="javascript.png" alt="">
+            <span>JavaScript</span>
+        </div>
+        <div   class="skl">
+            <img src="github-yellow.png" alt="">
+            <span>GitHub</span>
+        </div>
+
+    </section>
+<footer>
+    <h4>Fale Comigo!</h4>
+    <div id="contato">
+    <div class="cc"><a href="https://github.com/Ginhoh">GitHub<img src="github.svg" alt="Icone do GitHub" target="_blank"></a></div>
+    <div class="cc"><a href="mailto:igorjeronimo2007@gmail.com" target="_blank">Gmail<img src="gmail.svg" alt="Icone do Gmail"></a></div>
+    <div class="cc"><a href="https://www.linkedin.com/in/igorjeronimo/">Linkedin<img src="linkedin.svg" alt="Icone do Linkedin" target="_blank"></a></div>
+
+    </div>
+    <script src="script.js"></script>
+    <h5>&copy;Igor Jerônimo - Todos os direitos reservados</h5>
+</footer>
+    
+</body>
+</html>
